@@ -1,0 +1,65 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "How are you doing",
+                "Is anyone there?",
+                "What's up?",
+                "Hello",
+                "Good day",
+                "What's going on"
+            ],
+            "responses": [
+                "Hey! Welcome to Basic bot."
+            ]
+        },
+        {
+            "tag": "conv_end",
+            "patterns": ["Bye", "See you later!", "Goodbye!", "Thank you"],
+            "responses": [
+                "See you later! Take care!",
+                "Have a lovely day! Take care and stay safe!",
+                "Take care of yourself! I'm always here to support you! Feel free to come back at any time!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "gpt_question",
+            "patterns": [
+                "What do you do?",
+                "Who are you?",
+                "What are you here for?",
+                "What can you help me with?",
+                "Is anyone there?",
+                "Are you a real person?",
+                "Tell me about yourself!",
+                "ask chatgpt"
+            ],
+            "responses": []
+        },
+        {
+            "tag": "class_script",
+            "patterns": [
+                "I want you to attend my classes",
+                "Run my class script",
+                "I am getting late for classes",
+                "can you attend my classes",
+                "attend my maths class",
+                "attend my physics class"
+                
+            ],
+            "responses": [
+                "Initiating script"
+            ]
+        }
+
+    ]
+  }
